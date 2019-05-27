@@ -1,12 +1,12 @@
 #include <stdio.h>
 
-int a = 10;
+int a = 123456;
 int *wskaznik;
 *wskaznik = &a;							// zmienna globalna
 
 void info(char *nazwa_bloku, int zmienna)	// znak '*' bedzie wytlumaczony nizej
 {
-	printf("W blosssssku %s zmienna a = %d\n", nazwa_bloku, zmienna);
+	printf("W blosku o numerze x jest inaczej %s zmienna a = %d\n", nazwa_bloku, zmienna);
 }
 
 void funkcja()							// 'void' oznacza, ze funkcja nie zwraca zadnej wartosci
